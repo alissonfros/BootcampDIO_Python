@@ -160,12 +160,16 @@ def main():
             
         elif opcao == "e":
             gerar_extrato(saldo, extrato)
+
         elif opcao == "n":
             clientes = cadastrar_cliente(clientes)
+
         elif opcao == "c":
             contas = criar_conta(contas, clientes)
+
         elif opcao == "l":
             listar_contas(contas)
+            
         elif opcao == "q":
             print("Obrigado por utilizar nosso sistema bancário!")  
             break
